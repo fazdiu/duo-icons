@@ -1,0 +1,6 @@
+<svg class="duoicon" width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M 10 3 C 11.105 3 12 3.895 12 5 L 12 19 C 12 20.105 11.105 21 10 21 L 5 21 C 3.895 21 3 20.105 3 19 L 3 5 C 3 3.895 3.895 3 5 3 L 10 3 Z" fill-rule="evenodd" opacity=".3" class="duoicon-secondary-layer"></path>
+    <path fill="currentColor" d="M 13.636 4 C 14.37 3.266 15.543 3.215 16.337 3.883 L 16.464 4 L 20 7.536 C 20.695 8.231 20.782 9.329 20.204 10.125 L 13 17.357 L 13 4.636 L 13.636 4 Z" fill-rule="evenodd" class="duoicon-primary-layer"></path>
+    <path fill="currentColor" d="M 7.5 15 C 6.345 15 5.624 16.25 6.201 17.25 C 6.469 17.714 6.964 18 7.5 18 C 8.655 18 9.376 16.75 8.799 15.75 C 8.531 15.286 8.036 15 7.5 15 Z" fill-rule="evenodd" class="duoicon-primary-layer"></path>
+    <path fill="currentColor" d="M 19.66 12.111 C 20.391 12.367 20.93 13.035 20.994 13.838000000000001 L 21 19 C 21 20.047 20.194 20.917 19.15 20.995 L 19 21 L 13 21 L 13 18.77 L 19.66 12.111 Z" fill-rule="evenodd" opacity=".3" class="duoicon-secondary-layer"></path>
+</svg>

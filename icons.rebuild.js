@@ -22,16 +22,27 @@ const addClassNames = (path) => {
         }
 
         if ((item.hasAttribute("opacity") && [".3", "0.3"].includes(item.getAttribute("opacity")))) {
-            item.classList.add('secondary-layer');
+            item.classList.add('duoicon-secondary-layer');
         } else {
-            item.classList.add('primary-layer');
+            item.classList.add('duoicon-primary-layer');
+        }
+
+        if (item.hasAttribute('style') && !item.getAttribute('style')) {
+            item.removeAttribute('style')
+        }
+
+        if (item.classList.contains('secondary-layer')) {
+            item.classList.replace('secondary-layer', 'duoicon-secondary-layer')
+        }
+        if (item.classList.contains('primary-layer')) {
+            item.classList.replace('primary-layer', 'duoicon-primary-layer')
         }
     })
 
     return svg.outerHTML;
 }
 
-const dir = path.join(process.cwd(), 'rebuilt-icons');
+const dir = path.join(process.cwd(), 'icons');
 let files = fs.readdirSync(dir);
 files.forEach((fileName) => {
     let pathSVG = `${dir}/${fileName}`;
