@@ -1,0 +1,413 @@
+{
+    "credit-card": [
+        "bank-card"
+    ],
+    "bank": [
+        "bank"
+    ],
+    "box": [
+        "box"
+    ],
+    "approved": [
+        "certificate"
+    ],
+    "certificate": [
+        "certificate"
+    ],
+    "message": [
+        "chat",
+        "text"
+    ],
+    "app": [
+        "circles-four"
+    ],
+    "coin stack": [
+        "coin"
+    ],
+    "confetti": [
+        "confetti"
+    ],
+    "currency-euro": [
+        "currency-euro"
+    ],
+    "book": [
+        "diary"
+    ],
+    "file": [
+        "file-star"
+    ],
+    "upload": [
+        "file-upload"
+    ],
+    "dashboard": [
+        "grid"
+    ],
+    "menu": [
+        "menu-open-rounded"
+    ],
+    "palette": [
+        "palette"
+    ],
+    "slideshow": [
+        "presentation-1"
+    ],
+    "discount": [
+        "sale"
+    ],
+    "toggle": [
+        "toggle-left"
+    ],
+    "translation": [
+        "translate"
+    ],
+    "upload-file": [
+        "upload"
+    ],
+    "user": [],
+    "world": [
+        "world"
+    ],
+    "id-card": [
+        "profile"
+    ],
+    "shopping-bag": [
+        "bag",
+        "shopping",
+        "basket"
+    ],
+    "apple": [
+        "apple"
+    ],
+    "android": [
+        "android"
+    ],
+    "alert-octagon": [
+        "alert",
+        "notification",
+        "error",
+        "octagon"
+    ],
+    "alert-triangle": [
+        "alert",
+        "notification",
+        "error",
+        "triangle"
+    ],
+    "disk": [
+        "album"
+    ],
+    "clock": [
+        "alarm",
+        "watch"
+    ],
+    "airplay": [],
+    "user-card": [
+        "user",
+        "card",
+        "id"
+    ],
+    "baby-carriage": [],
+    "award": [
+        "reward",
+        "premium",
+        "prize",
+        "grant"
+    ],
+    "appstore": [
+        "appstore",
+        "store"
+    ],
+    "align-center": [
+        "align-center"
+    ],
+    "align-bottom": [
+        "align-bottom"
+    ],
+    "folder-open": [
+        "album"
+    ],
+    "add-circle": [
+        "add",
+        "plus",
+        "more"
+    ],
+    "target": [
+        "aiming"
+    ],
+    "battery": [
+        "battery-charging"
+    ],
+    "bookmark": [
+        "bill",
+        "bookmark"
+    ],
+    "book-2": [],
+    "box-2": [],
+    "briefcase": [
+        "portfolio",
+        "briefcase",
+        "wallet"
+    ],
+    "brush-2": [
+        "paintbrush",
+        "plane",
+        "brush",
+        "shave"
+    ],
+    "brush": [
+        "paintbrush",
+        "plane",
+        "brush",
+        "shave"
+    ],
+    "bug": [
+        "error",
+        "mistake",
+        "bug",
+        "wrong",
+        "fault",
+        "fallacy",
+        "insect"
+    ],
+    "building": [
+        "building",
+        "premises",
+        "place",
+        "outbuilding",
+        "erection",
+        "lieu"
+    ],
+    "lamp": [
+        "bulb",
+        "lamp",
+        "tube for sipping"
+    ],
+    "bus": [
+        "bus",
+        "omnibus"
+    ],
+    "cake": [
+        "cake",
+        "pastel",
+        "pie",
+        "biscuit",
+        "sponge",
+        "bisque"
+    ],
+    "book-3": [
+        "book",
+        "notebook"
+    ],
+    "bread": [
+        "bread",
+        "loaf",
+        "paste",
+        "pulp",
+        "dough",
+        "batter",
+        "pastry",
+        "cash"
+    ],
+    "bridge": [
+        "bridge",
+        "bridgework",
+        "deck bridge",
+        "span"
+    ],
+    "sun": [
+        "brightness",
+        "sun",
+        "sunshine",
+        "sol",
+        "soh"
+    ],
+    "app-dots": [
+        "category",
+        "apps"
+    ],
+    "smartwatch": [
+        "smartwatch",
+        "watch"
+    ],
+    "bell": [
+        "notification",
+        "alert",
+        "bell",
+        "notice"
+    ],
+    "bell-badge": [
+        "notification",
+        "alert",
+        "bell",
+        "notice",
+        "badge"
+    ],
+    "calendar": [
+        "calendar"
+    ],
+    "camera": [
+        "camera",
+        "chamber",
+        "vault",
+        "hall",
+        "innertube"
+    ],
+    "camera-square": [
+        "camera",
+        "chamber",
+        "vault",
+        "hall",
+        "innertube",
+        "square"
+    ],
+    "campground": [
+        "camp",
+        "camping",
+        "campsite",
+        "encampment"
+    ],
+    "candle": [
+        "candle",
+        "sail",
+        "watch",
+        "wake"
+    ],
+    "car": [
+        "car",
+        "coach",
+        "carriage",
+        "auto",
+        "cab",
+        "motor",
+        "automobile"
+    ],
+    "lamp-2": [
+        "lamp",
+        "light"
+    ],
+    "smartphone": [
+        "phone",
+        "cellphone"
+    ],
+    "smartphone-vibration": [
+        "phone",
+        "cellphone"
+    ],
+    "chart-pie": [
+        "graphic",
+        "graph",
+        "chart",
+        "plot",
+        "diagram"
+    ],
+    "message-2": [
+        "chat",
+        "text"
+    ],
+    "check-circle": [
+        "check",
+        "circle",
+        "verify",
+        "control",
+        "verification"
+    ],
+    "chip": [
+        "cpu",
+        "computer"
+    ],
+    "clapperboard": [
+        "video",
+        "mp4"
+    ],
+    "clipboard": [
+        "history",
+        "folder",
+        "file"
+    ],
+    "marker": [
+        "bookmarker",
+        "marker",
+        "clock"
+    ],
+    "cloud-lightning": [
+        "cloud",
+        "lightning"
+    ],
+    "cloud-snow": [
+        "cloud",
+        "lightning",
+        "snow"
+    ],
+    "message-3": [
+        "chat",
+        "text",
+        "comment"
+    ],
+    "compass": [
+        "compass",
+        "measure",
+        "beat",
+        "time",
+        "timing",
+        "pulse"
+    ],
+    "computer-camera": [
+        "computer",
+        "camera"
+    ],
+    "computer-camera-off": [
+        "computer",
+        "camera",
+        "off"
+    ],
+    "rocket": [
+        "rocket",
+        "skyrocket"
+    ],
+    "info": [
+        "information",
+        "alert",
+        "warning",
+        "error"
+    ],
+    "location": [
+        "localization",
+        "position",
+        "location",
+        "place",
+        "standing",
+        "status",
+        "stand"
+    ],
+    "moon": [
+        "moon"
+    ],
+    "settings": [
+        "settings",
+        "adjustment",
+        "patch",
+        "cog",
+        "configuration"
+    ],
+    "folder-upload": [
+        "folder",
+        "upload",
+        "file"
+    ],
+    "fire": [
+        "fire",
+        "blaze",
+        "light",
+        "fireplace",
+        "hearth"
+    ],
+    "moon-2": [
+        "moon",
+        "bedtime-off"
+    ],
+    "g-translate": [
+        "google translate",
+        "translation",
+        "languages"
+    ]
+}
