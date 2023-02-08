@@ -2,6 +2,9 @@
   "name": "duo-icons",
   "private": false,
   "version": "0.0.7",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "rebuild:icons": "node icons.rebuild.js",
     "create-json:icons": "node icons.create.json.js",
