@@ -1,13 +1,40 @@
 {
   "name": "duo-icons",
-  "private": true,
+  "private": false,
   "version": "0.0.7",
   "scripts": {
+    "rebuild:icons": "node icons.rebuild.js",
+    "create-json:icons": "node icons.create.json.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^21.1.0",
+    "path": "^0.12.7",
+    "svgo": "^3.0.2",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "Beautiful and modern duotone icons.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandcf/duo-icons.git"
+  },
+  "keywords": [
+    "duotone",
+    "icons",
+    "open",
+    "source",
+    "tailwind icons",
+    "css",
+    "html",
+    "duotone icons open source"
+  ],
+  "author": "fernandcf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandcf/duo-icons/issues"
+  },
+  "homepage": "https://github.com/fernandcf/duo-icons#readme"
 }
