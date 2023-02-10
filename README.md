@@ -24,7 +24,7 @@ Implementation of the duo icon library for web applications.
 
 ```html
   <!-- Production version -->
-<script src="shs://unpkg.com/duo-icons@latest"></script>
+<script src="https://unpkg.com/duo-icons@latest"></script>
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ Implementation of the duo icon library for web applications.
   <i data-duoicon="box-2"></i>
   <i data-duoicon="menu"></i>
 
-  <script src="shs://unpkg.com/duo-icons@latest"></script>
+  <script src="https://unpkg.com/duo-icons@latest"></script>
   <script>
     duoIcons.createIcons();
   </script>
