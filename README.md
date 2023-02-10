@@ -102,7 +102,11 @@ The applied color is inherited by all layers, including the child layer, which b
 ```html
  <!-- Your HTML file class tailwind -->
 <i data-duoicon="menu" class="duoicon-primary:text-indigo-600
-duoicon-secondary:text-indigo-400"></i>
+duoicon-secondary:opacity-100 duoicon-secondary:text-indigo-400"></i>
+
+ <!-- hover,focus,etc -->
+<i data-duoicon="menu" class="duoicon-primary:text-indigo-600 
+duoicon-secondary:opacity-100 duoicon-secondary:text-indigo-400 duoicon-primary:hover:text-indigo-800 duoicon-secondary:hover:text-indigo-800"></i>
 ```
 
 ##### Other frameworks
@@ -119,6 +123,5 @@ duoicon-secondary:text-indigo-400"></i>
       color:blue
     }
   </style>
-<i data-duoicon="menu" class="duoicon-primary:text-indigo-600
-duoicon-secondary:text-indigo-400"></i>
+<i data-duoicon="menu"></i>
 ```
