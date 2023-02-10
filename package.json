@@ -1,7 +1,7 @@
 {
   "name": "duo-icons",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "module": "./dist/duo-icons.mjs",
   "main": "./dist/duo-icons.umd.js",
   "unpkg": "./dist/duo-icons.umd.js",
@@ -9,6 +9,9 @@
     ".": {
       "import": "./dist/duo-icons.mjs",
       "require": "./dist/duo-icons.umd.js"
+    },
+    "./plugin": {
+      "require": "./plugin.js"
     }
   },
   "files": [
