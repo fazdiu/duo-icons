@@ -3,7 +3,8 @@
 
 A collection of modern and simple duotone icons and open source!
 
-
+## 🔗 Links
+[![Website:https://duoicons.vercel.app/](https://duoicons.vercel.app)]
 
 ## Installation
 
