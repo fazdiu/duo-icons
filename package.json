@@ -12,7 +12,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "plugin.js"
   ],
   "scripts": {
     "rebuild:icons": "node icons.rebuild.js",
