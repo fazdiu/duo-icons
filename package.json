@@ -1,7 +1,7 @@
 {
   "name": "duo-icons",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "module": "./dist/duo-icons.mjs",
   "main": "./dist/duo-icons.umd.js",
   "unpkg": "./dist/duo-icons.umd.js",
@@ -13,7 +13,8 @@
   },
   "files": [
     "dist",
-    "plugin.js"
+    "plugin.js",
+    "README.md"
   ],
   "scripts": {
     "rebuild:icons": "node icons.rebuild.js",
