@@ -11,33 +11,33 @@ Implementation of the duo icon library for web applications.
 
 #### Package Managers
 
-```http
+```sh
   npm i duo-icons
 ```
 
-```http
+```sh
   yarn add duo-icons
 ```
 
 #### CDN
 
-```http
+```sh
   <!-- Production version -->
-<script src="https://unpkg.com/duo-icons@latest"></script>
+<script src="shs://unpkg.com/duo-icons@latest"></script>
 ```
 
 ## Usage
 
 #### With unpkg
 
-```http
+```sh
   <!DOCTYPE html>
 <body>
   <i data-duoicon="brush" class="my-class"></i>
   <i data-duoicon="box-2"></i>
   <i data-duoicon="menu"></i>
 
-  <script src="https://unpkg.com/duo-icons@latest"></script>
+  <script src="shs://unpkg.com/duo-icons@latest"></script>
   <script>
     duoIcons.createIcons();
   </script>
@@ -47,12 +47,12 @@ Implementation of the duo icon library for web applications.
 #### With ESModules
 
 
-```http
+```sh
  <!-- Your HTML file -->
 <i data-duoicon="menu"></i>
 ```
 
-```http
+```sh
  import { createIcons } from 'duo-icons';
  createIcons();
 ```
@@ -63,12 +63,12 @@ Implementation of the duo icon library for web applications.
 
 The applied color is inherited by all layers, including the child layer, which by default applies an opacity of 30%
 
-```http
+```sh
  <!-- in tailwind css -->
 <i data-duoicon="menu" class="text-indigo-600"></i>
 ```
 
-```http
+```sh
   <!-- in others frameworks-->
   <style>
     .duoicon{
@@ -84,12 +84,12 @@ The applied color is inherited by all layers, including the child layer, which b
 
 1.Install the package if you have not already done so
 
-```http
+```sh
   npm i duo-icons
 ```
 
 2.Add the DuoIcons plugin
-```http
+```sh
   // tailwind.config.js
     module.exports = {
       plugins: [
@@ -98,7 +98,7 @@ The applied color is inherited by all layers, including the child layer, which b
     }
 ```
 3.Usage class
-```http
+```sh
  <!-- Your HTML file class tailwind -->
 <i data-duoicon="menu" class="duoicon-primary:text-indigo-600
 duoicon-secondary:text-indigo-400"></i>
@@ -106,7 +106,7 @@ duoicon-secondary:text-indigo-400"></i>
 
 ##### Other frameworks
 
-```http
+```sh
  <!-- Your HTML file class tailwind -->
  <style>
     .duoicon .duoicon-primary-layer{
