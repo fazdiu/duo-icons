@@ -21,7 +21,7 @@ Implementation of the duo icon library for web applications.
 
 #### CDN
 
-```sh
+```html
   <!-- Production version -->
 <script src="shs://unpkg.com/duo-icons@latest"></script>
 ```
@@ -30,7 +30,7 @@ Implementation of the duo icon library for web applications.
 
 #### With unpkg
 
-```sh
+```html
   <!DOCTYPE html>
 <body>
   <i data-duoicon="brush" class="my-class"></i>
@@ -47,12 +47,12 @@ Implementation of the duo icon library for web applications.
 #### With ESModules
 
 
-```sh
+```html
  <!-- Your HTML file -->
 <i data-duoicon="menu"></i>
 ```
 
-```sh
+```js
  import { createIcons } from 'duo-icons';
  createIcons();
 ```
@@ -63,12 +63,12 @@ Implementation of the duo icon library for web applications.
 
 The applied color is inherited by all layers, including the child layer, which by default applies an opacity of 30%
 
-```sh
+```html
  <!-- in tailwind css -->
 <i data-duoicon="menu" class="text-indigo-600"></i>
 ```
 
-```sh
+```html
   <!-- in others frameworks-->
   <style>
     .duoicon{
@@ -89,7 +89,7 @@ The applied color is inherited by all layers, including the child layer, which b
 ```
 
 2.Add the DuoIcons plugin
-```sh
+```js
   // tailwind.config.js
     module.exports = {
       plugins: [
@@ -98,7 +98,7 @@ The applied color is inherited by all layers, including the child layer, which b
     }
 ```
 3.Usage class
-```sh
+```html
  <!-- Your HTML file class tailwind -->
 <i data-duoicon="menu" class="duoicon-primary:text-indigo-600
 duoicon-secondary:text-indigo-400"></i>
@@ -106,7 +106,7 @@ duoicon-secondary:text-indigo-400"></i>
 
 ##### Other frameworks
 
-```sh
+```html
  <!-- Your HTML file class tailwind -->
  <style>
     .duoicon .duoicon-primary-layer{
