@@ -6,7 +6,9 @@ import createElement from './createElement';
  * @returns {Object}
  */
 const getAttrs = (element) => {
+
     let attributes = {};
+
     Array.from(element.attributes).forEach(({ name, value }) => {
         attributes[name] = value;
     })
@@ -15,7 +17,7 @@ const getAttrs = (element) => {
 
 /**
  * Combines the classNames of array of classNames to a String
- * @param {string|object} attrs 
+ * @param {string|array} attrs 
  * @param {array} merge 
  * @returns {string}
  */
@@ -26,15 +28,17 @@ const combineClassNames = (attrs, merge = []) => {
         classArray = attrs.split(' ');
     }
 
-    if (attrs.class && typeof attrs.class === 'string') {
-        classArray = attrs.class.split(' ');
+    if (Array.isArray(attrs)) {
+        classArray.push(...attrs)
     }
 
     classArray.push(...merge);
 
-    return classArray.filter((item, index, array) => {
+    let newClass = classArray.flat(x => x).filter((item, index, array) => {
         return array.indexOf(item) == index;
     }).join(' ');
+
+    return newClass
 }
 
 /**
@@ -57,14 +61,25 @@ const replaceElement = (element, icons = {}, attributesConfig = {}) => {
     }
 
     const iconBody = icons[_iconName],
-        attributesFrom = getAttrs(element),
-        classNames = combineClassNames(attributesFrom, ['duo-icon', `duo-icon-${iconName}`]);
+        attributesFrom = getAttrs(element);
 
-    attributesFrom.class = combineClassNames(classNames, attributesConfig.hasOwnProperty('class') ? attributesConfig.class : []);
+    let allClassNames = [];
+    if (attributesConfig.class) {
+        if (Array.isArray(attributesConfig.class)) {
+            allClassNames.push(...attributesConfig.class);
+        }
+        if (typeof attributesConfig.class === 'string') {
+            allClassNames.push(...attributesConfig.class.split(' '));
+        }
+    }
 
-    const combineAttributes = Object.assign(attributesConfig, attributesFrom);
+    if (attributesFrom.class && typeof attributesFrom.class === 'string') {
+        allClassNames.push(...attributesFrom.class.split(' '));
+    }
 
-    const svgElement = createElement(combineAttributes, iconBody);
+    attributesFrom.class = combineClassNames(allClassNames, ['duo-icon', `duo-icon-${iconName}`]);
+
+    const svgElement = createElement(attributesFrom, iconBody);
 
     return element.parentNode?.replaceChild(svgElement, element);
 

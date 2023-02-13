@@ -14,6 +14,7 @@ const createElement = (attributesFrom, bodySVG = '') => {
 
     Object.keys(combineAttributes).forEach((name) => {
         element.setAttribute(name, combineAttributes[name]);
+    
     });
 
     return element

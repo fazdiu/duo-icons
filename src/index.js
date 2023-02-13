@@ -27,4 +27,6 @@ const createIcons = (config = {}) => {
     );
 };
 
+createIcons();
+
 export { createIcons, allIcons as icons }
