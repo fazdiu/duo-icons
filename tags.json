@@ -379,9 +379,6 @@
         "status",
         "stand"
     ],
-    "moon": [
-        "moon"
-    ],
     "settings": [
         "settings",
         "adjustment",
@@ -404,6 +401,9 @@
     "moon-2": [
         "moon",
         "bedtime-off"
+    ],
+    "moon-stars": [
+        "moon"
     ],
     "g-translate": [
         "google translate",
