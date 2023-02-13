@@ -133,7 +133,6 @@ const d = {
     (l) => y(l, W1, a.attributes)
   );
 };
-X1();
 export {
   X1 as createIcons,
   W1 as icons
