@@ -72,7 +72,7 @@ The applied color is inherited by all layers, including the child layer, which b
 ```html
   <!-- in others frameworks-->
   <style>
-    .duoicon{
+    .duo-icon{
       color:red
     }
   </style>
@@ -114,10 +114,10 @@ duoicon-secondary:opacity-100 duoicon-secondary:text-indigo-400 duoicon-primary:
 ```html
  <!-- Your HTML file class tailwind -->
  <style>
-    .duoicon .duoicon-primary-layer{
+    .duo-icon .duoicon-primary-layer{
       color:red
     }
-    .duoicon .duoicon-secondary-layer{
+    .duo-icon .duoicon-secondary-layer{
       /*By default, the child layer has an opacity of 30% applied. If you apply color to the child layer, be sure to set the opacity to 1 */
       opacity:1;
       color:blue
