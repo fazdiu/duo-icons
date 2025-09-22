@@ -1,4 +1,8 @@
 
+> [!IMPORTANT]
+> First, 👋 I want to thank everyone who uses or has used this Duotone icon pack. I also want to tell you that I am going through a difficult situation—I'm sorry, but I won't go into details 😐😝—that could happen to anyone. That's why I'm asking for your support through the [Ko-fi](https://ko-fi.com/fazdiu) platform. I know I shouldn't ask, but the situation forces me to. Be happy and God bless you.
+
+
 # Duoicons
 
 A collection of modern and simple duotone icons and open source!
