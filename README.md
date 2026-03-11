@@ -1,131 +1,30 @@
 
 > [!IMPORTANT]
-> First, 👋 I want to thank everyone who uses or has used this Duotone icon pack. I also want to tell you that I am going through a difficult situation—I'm sorry, but I won't go into details 😐😝—that could happen to anyone. That's why I'm asking for your support through the [Ko-fi](https://ko-fi.com/fazdiu) platform. I know I shouldn't ask, but the situation forces me to. Be happy and God bless you.
+> ⚠️ Update Notice: Before migrating from version 1.x to the current version, we recommend reviewing the important changes and possible compatibility adjustments at this link:[Version 2.x Changes](./CHANGELOG.md)
+
+# DuoIcons
+
+<p align="center">
+  <a href="https://duoicons.vercel.app">Icons</a>
+  ·
+  <a href="https://duoicons.vercel.app">Guide</a>
+  ·
+  <a href="https://duoicons.vercel.app">Packages</a>
+  ·
+  <a href="https://github.com/fazdiu/duo-icons/blob/master/LICENSE">License</a>
+  ·
+  <a href="https://duoicons.vercel.app">Showcase</a>
+</p>
+
+Duo Icons is a library of modern and beautiful duotone icons, designed for easy use in web projects. It provides a collection of SVG icons that can be dynamically integrated into your HTML.
 
 
-# Duoicons
+## Packages
 
-A collection of modern and simple duotone icons and open source!
+| Logo | Package | Version | Links |
+| ---- | ------- | ------- | ----- |
+| <img src="https://raw.githubusercontent.com/fazdiu/duo-icons/refs/heads/master/public/js.svg" alt="JS logo" width="48"> | **`duo-icons`** | [2.0.0](https://www.npmjs.com/package/duo-icons) | [Docs](https://duoicons.vercel.app) · [Source](./packages/lucide) |
 
-## 🔗 Website
-[[https://duoicons.vercel.app/](https://duoicons.vercel.app)]
+## License
 
-## Installation
-
-Implementation of the duo icon library for web applications.
-
-#### Package Managers
-
-```sh
-  npm i duo-icons
-```
-
-```sh
-  yarn add duo-icons
-```
-
-#### CDN
-
-```html
-  <!-- Production version -->
-<script src="https://unpkg.com/duo-icons@latest"></script>
-```
-
-## Usage
-
-#### With unpkg
-
-```html
-  <!DOCTYPE html>
-<body>
-  <i data-duoicon="brush" class="my-class"></i>
-  <i data-duoicon="box-2"></i>
-  <i data-duoicon="menu"></i>
-
-  <script src="https://unpkg.com/duo-icons@latest"></script>
-  <script>
-    duoIcons.createIcons();
-  </script>
-</body>
-```
-
-#### With ESModules
-
-
-```html
- <!-- Your HTML file -->
-<i data-duoicon="menu"></i>
-```
-
-```js
- import { createIcons } from 'duo-icons';
- createIcons();
-```
-
-## Customization
-
-#### Apply only one color
-
-The applied color is inherited by all layers, including the child layer, which by default applies an opacity of 30%
-
-```html
- <!-- in tailwind css -->
-<i data-duoicon="menu" class="text-indigo-600"></i>
-```
-
-```html
-  <!-- in others frameworks-->
-  <style>
-    .duo-icon{
-      color:red
-    }
-  </style>
-  <i data-duoicon="menu"></i>
-```
-
-#### Apply two colors
-
-##### Tailwind css
-
-1.Install the package if you have not already done so
-
-```sh
-  npm i duo-icons
-```
-
-2.Add the DuoIcons plugin
-```js
-  // tailwind.config.js
-    module.exports = {
-      plugins: [
-          require('duo-icons/plugin'),
-      ],
-    }
-```
-3.Usage class
-```html
- <!-- Your HTML file class tailwind -->
-<i data-duoicon="menu" class="duoicon-primary:text-indigo-600
-duoicon-secondary:opacity-100 duoicon-secondary:text-indigo-400"></i>
-
- <!-- hover,focus,etc -->
-<i data-duoicon="menu" class="duoicon-primary:text-indigo-600 
-duoicon-secondary:opacity-100 duoicon-secondary:text-indigo-400 duoicon-primary:hover:text-indigo-800 duoicon-secondary:hover:text-indigo-800"></i>
-```
-
-##### Other frameworks
-
-```html
- <!-- Your HTML file class tailwind -->
- <style>
-    .duo-icon .duoicon-primary-layer{
-      color:red
-    }
-    .duo-icon .duoicon-secondary-layer{
-      /*By default, the child layer has an opacity of 30% applied. If you apply color to the child layer, be sure to set the opacity to 1 */
-      opacity:1;
-      color:blue
-    }
-  </style>
-<i data-duoicon="menu"></i>
-```
+DuoIcons is totally free for commercial use and personal use, this software is licensed under the [MIT License](https://github.com/lucide-icons/lucide/blob/main/LICENSE).
