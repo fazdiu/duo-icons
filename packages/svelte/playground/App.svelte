@@ -1,0 +1,11 @@
+<script lang="ts">
+  import { AddCircle } from '../src';
+</script>
+
+<main>
+  <h1>Icons</h1>
+    <AddCircle color='red' data-id="888" class="add-class" />
+    <AddCircle color='green' />
+    <AddCircle color="royalblue" size="64" />
+    <AddCircle color="orange" size="32"/>
+</main>

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler", /* Con B mayúscula es más compatible en versiones 5.x */
+    "allowImportingTsExtensions": true, /* Necesario para Vite 7 */
+    "rewriteRelativeImportExtensions": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "types": ["node", "vite/client"] /* Añade vite/client aquí */
+  },
+  "include": ["src", "vite.config.ts"]
+}

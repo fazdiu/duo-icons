@@ -1,0 +1,21 @@
+import React from 'react';
+import { Path } from 'react-native-svg';
+import { IconBase, IconProps } from '../IconBase';
+
+export const CreditCard = (props: IconProps) => (
+  <IconBase {...props}>
+    <Path
+      fill="currentColor"
+      d="M 22 10 L 22 17 C 22 18.657 20.657 20 19 20 L 5 20 C 3.343 20 2 18.657 2 17 L 2 10 L 22 10 Z"
+      opacity=".3"
+    />
+    <Path
+      fill="currentColor"
+      d="M 19 4 C 20.657 4 22 5.343 22 7 L 22 8 L 2 8 L 2 7 C 2 5.343 3.343 4 5 4 L 19 4 Z"
+    />
+    <Path
+      fill="currentColor"
+      d="M 18 14 L 15 14 C 14.23 14 13.749 14.833 14.134 15.5 C 14.313 15.809 14.643 16 15 16 L 18 16 C 18.77 16 19.251 15.167 18.866 14.5 C 18.687 14.191 18.357 14 18 14 Z"
+    />
+  </IconBase>
+);

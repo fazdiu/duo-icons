@@ -1,0 +1,16 @@
+@layer components {
+   /* :where() reduces specificity to zero, allowing any external class to override it instantly, but is removed for compatibility with older browsers */
+  :where([class^="duo-icons-"]), :where([class*=" duo-icons-"]) {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    vertical-align: middle;
+  }
+}
+
+/* 2v ".duoicon-*" backward compatibility; it will be removed in future versions */
+@custom-variant duo-icons-primary (& .duo-icons-primary-layer, & .duoicon-primary-layer);
+@custom-variant duo-icons-secondary (& .duo-icons-secondary-layer, & .duoicon-secondary-layer);

@@ -1,0 +1,24 @@
+<template>
+  <IconBase v-bind="props">
+    <path
+      fill="currentColor"
+      fill-rule="evenodd"
+      d="M14.194 2.885c2.3-.299 4.458.21 5.645 1.397.79.791 1.18 1.711 1.16 2.72-.017.961-.405 1.894-.938 2.764-.762 1.245-1.952 2.563-3.27 3.915l-.729.74-1.616 1.617-.691.682c-1.378 1.346-2.722 2.566-3.989 3.341-.87.533-1.803.92-2.764.939-1.009.02-1.929-.37-2.72-1.161-1.187-1.187-1.696-3.345-1.397-5.645.307-2.36 1.471-5.035 3.872-7.437 2.402-2.4 5.078-3.565 7.437-3.872"
+      class="duo-icons-secondary-layer"
+      opacity=".3"
+    /><path
+      fill="currentColor"
+      fill-rule="evenodd"
+      d="M13.111 5.149c-.618.178-1.259.43-1.907.768.52.847 1.299 1.452 2.308 1.789a1 1 0 1 0 .633-1.897c-.434-.145-.774-.36-1.034-.66M8.691 7.679a14 14 0 0 0-1.406 1.468c.194.251.406.489.621.704.585.584 1.333 1.145 2.07 1.39a1 1 0 0 0 .742-1.854l-.109-.043c-.323-.107-.812-.43-1.288-.907a5 5 0 0 1-.63-.758M5.691 11.665a9.8 9.8 0 0 0-.742 2.283q.631.541 1.492.83a1 1 0 1 0 .633-1.898c-.667-.222-1.112-.612-1.383-1.216z"
+      class="duo-icons-primary-layer"
+    />
+  </IconBase>
+</template>
+
+<script setup lang="ts">
+import IconBase from '../IconBase.vue';
+import type { IconProps } from '../types';
+
+// By using the interface here, IntelliSense is enabled for this component.
+const props = defineProps<IconProps>();
+</script>

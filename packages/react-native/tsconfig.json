@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",    // Where will the processed code be stored?
+    "target": "ESNext",
+    "module": "commonjs", // Required for Metro (React Native)
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-native", // Keeps components ready for RN
+    "declaration": true,   // Generates .d.ts files (user types)
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "src/main.tsx"] // We did not include the web test file.
+}

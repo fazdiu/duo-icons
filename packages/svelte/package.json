@@ -1,0 +1,43 @@
+{
+  "name": "@duo-icons/svelte",
+  "author": "fazdiu",
+  "description": "Duo Icons is a library of modern and beautiful duotone icons, designed for easy use in svelte projects. Each icon is crafted with a two-tone color scheme, providing a unique and stylish look that enhances the visual appeal of your applications. With a wide range of icons available, Duo Icons is perfect for developers and designers looking to add a touch of elegance to their projects.",
+  "license": "MIT",
+  "version": "1.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "svelte": "^5.53.7"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^25.4.0",
+    "svelte": "^5.53.7",
+    "svelte-check": "^4.4.5",
+    "svelte-preprocess": "^6.0.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@duo-icons/react-native",
+  "author": "fazdiu",
+  "description": "Duo Icons modern and beautiful duotone icons library specifically designed for seamless integration in React Native projects.",
+  "license": "MIT",
+  "version": "1.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@vitejs/plugin-react": "^5.1.4",
+    "react": "^19.2.4",
+    "react-native-svg": "^15.15.3",
+    "react-native-web": "^0.21.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

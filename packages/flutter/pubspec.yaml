@@ -1,0 +1,21 @@
+name: duo_icons
+description: Modern and beautiful duotone icons for Flutter. High-performance rendering with full Null Safety support
+version: 1.0.1
+
+homepage: https://github.com/fazdiu/duo-icons # I will update later with my website URL
+repository: https://github.com/fazdiu/duo-icons/tree/master/packages/flutter
+issue_tracker: https://github.com/fazdiu/duo-icons/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # (Dart 3)
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.10+1 # <- base dependency
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0

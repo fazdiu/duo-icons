@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* In Vite, you can import the .ts file directly */
+/* @plugin "../src/plugin.ts"; */
+@import "../src/icons.css";
+@import "../src/base.css";
+
+/* Cualquier ajuste manual extra */
+@theme {
+  --color-primary: #3b82f6;
+}

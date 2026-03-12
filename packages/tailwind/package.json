@@ -1,0 +1,38 @@
+{
+  "name": "@duo-icons/tailwind",
+  "version": "1.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/plugin.d.ts",
+  "main": "./dist/plugin.cjs",
+  "module": "./dist/plugin.js",
+  "exports": {
+    ".": {
+      "types": "./dist/plugin.d.ts",
+      "import": "./dist/plugin.js",
+      "require": "./dist/plugin.cjs"
+    },
+    "./icons": "./dist/icons.css",
+    "./base": "./dist/base.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^25.3.5",
+    "tailwindcss": "^4.2.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mi-lib": ["src/index.ts"] 
+    },
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+  },
+  "include": ["src", "playground"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
