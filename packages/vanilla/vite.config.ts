@@ -34,7 +34,7 @@ export default defineConfig(({ command }) => {
                 entry: resolve(__dirname, 'src/index.js'),
                 name: 'DuoIcons',
                 formats: ['es', 'umd'],
-                // fileName: 'duo-icons',
+                fileName: 'index',
             },
             rollupOptions: {
                 external: [],

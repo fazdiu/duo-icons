@@ -1,6 +1,6 @@
 {
   "name": "duo-icons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "fazdiu (formerly fernandcf)",
   "license": "MIT",
   "description": "Duo Icons is a library of modern and beautiful duotone icons, designed for easy use in projects",
@@ -18,7 +18,7 @@
   "types": "./dist/index.d.ts",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
-   "exports": {
+  "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
@@ -30,6 +30,12 @@
   },
   "unpkg": "./dist/index.umd.cjs",
   "jsdelivr": "./dist/index.umd.cjs",
+  "files": [
+    "plugin.js",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "rebuild:icons": "npx tsx icons.rebuild.ts",
     "create-json:icons": "npx tsx ./scripts/icons.create.json.ts",
