@@ -1,8 +1,17 @@
-
-> [!IMPORTANT]
-> ⚠️ Update Notice: Before migrating from version 1.x to the current version, we recommend reviewing the important changes and possible compatibility adjustments at this link:[Version 2.x Changes](./CHANGELOG.md)
-
-# DuoIcons
+<div align="center">
+  <h1 id="duo-icons">DuoIcons</h1>
+  <p>
+    <a href="https://ko-fi.com/fazdiu"><img src="https://img.shields.io/badge/Ko--fi-Support_Me-29ABE0?logo=ko-fi&amp;logoColor=white" alt="Support me on Ko-fi"></a>
+    <a href="https://github.com/fazdiu/duo-icons?tab=readme-ov-file#packages"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="github"></a>
+    <img src="https://img.shields.io/badge/tailwindcss-blue?logo=tailwindcss" alt="tailwindcss">
+    <img src="https://img.shields.io/badge/react-blue?logo=react" alt="react">
+    <img src="https://img.shields.io/badge/nextjs-darkcyan?logo=nextdotjs" alt="nextdotjs">
+    <img src="https://img.shields.io/badge/vuejs-green?logo=vuedotjs" alt="Vue.js">
+    <img src="https://img.shields.io/badge/nuxt-blue?logo=nuxt" alt="nuxt.js">
+    <img src="https://img.shields.io/badge/svelte-orange?logo=svelte" alt="svelte">
+    <img src="https://img.shields.io/badge/flutter-blue?logo=flutter" alt="flutter">
+  </p>
+</div>
 
 <p align="center">
   <a href="https://duoicons.vercel.app">Icons</a>
@@ -28,3 +37,7 @@ Duo Icons is a library of modern and beautiful duotone icons, designed for easy 
 ## License
 
 DuoIcons is totally free for commercial use and personal use, this software is licensed under the [MIT License](https://github.com/lucide-icons/lucide/blob/main/LICENSE).
+
+## Support
+
+If you find Duo Icons useful, consider supporting the project with a donation: [![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-29ABE0?logo=ko-fi&logoColor=white)](https://ko-fi.com/fazdiu)

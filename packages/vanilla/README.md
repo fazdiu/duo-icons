@@ -1,8 +1,12 @@
-
-> [!IMPORTANT]
-> ⚠️ Update Notice: Before migrating from version 1.x to the current version, we recommend reviewing the important changes and possible compatibility adjustments at this link:[Version 2.x Changes](./CHANGELOG.md)
-
-# DuoIcons
+<div align="center">
+  <h1 id="duo-icons">DuoIcons</h1>
+  <p>
+    <a href="https://ko-fi.com/fazdiu"><img src="https://img.shields.io/badge/Ko--fi-Support_Me-29ABE0?logo=ko-fi&amp;logoColor=white" alt="Support me on Ko-fi"></a>
+    <a href="https://github.com/fazdiu/duo-icons?tab=readme-ov-file#packages"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="github"></a>
+    <img src="https://img.shields.io/badge/npm-red?logo=npm" alt="npm">
+    <img src="https://img.shields.io/badge/javascript-yellow?logo=javascript" alt="javascript">
+  </p>
+</div>
 
 <p align="center">
   <a href="https://duoicons.vercel.app">Icons</a>
@@ -23,6 +27,9 @@ Duo Icons is a library of modern and beautiful duotone icons, designed for easy 
 DuoIcons is totally free for commercial use and personal use, this software is licensed under the [MIT License](https://github.com/lucide-icons/lucide/blob/main/LICENSE).
 
 ## Installation
+
+> [!IMPORTANT]
+> ⚠️ Update Notice: Before migrating from version 1.x to the current version, we recommend reviewing the important changes and possible compatibility adjustments at this link:[Version 2.x Changes](./CHANGELOG.md)
 
 ### NPM
 
@@ -173,3 +180,7 @@ DuoIcons.createIcons({
 ```
 
 For more details about the available icons, see the `DuoIcons.icons` property which contains an object with all the included icons.
+
+## Support
+
+If you find Duo Icons useful, consider supporting the project with a donation: [![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-29ABE0?logo=ko-fi&logoColor=white)](https://ko-fi.com/fazdiu)
