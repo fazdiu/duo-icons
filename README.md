@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/nuxt-blue?logo=nuxt" alt="nuxt.js">
     <img src="https://img.shields.io/badge/svelte-orange?logo=svelte" alt="svelte">
     <img src="https://img.shields.io/badge/flutter-blue?logo=flutter" alt="flutter">
+    <img src="https://img.shields.io/badge/javascript-yellow?logo=javascript" alt="javascript">
   </p>
 </div>
 
