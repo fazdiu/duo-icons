@@ -50,7 +50,8 @@
     ]
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react": "*",
+    "react-native": "*",
     "react-native-svg": "^15.0.0"
   },
   "devDependencies": {
