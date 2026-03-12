@@ -103,6 +103,10 @@ After including the script in your HTML, access Duo Icons via `window.DuoIcons`.
 </html>
 ```
 
+## Available Icons
+
+The complete collection of all available icons is at [https://duoicons.vercel.app/](https://duoicons.vercel.app/), providing the necessary resources to implement them into your project.
+
 ## Function createIcons
 
 The `createIcons` function is the core of Duo Icons. It searches the DOM for elements with specific attributes (such as `data-duo-icons`) and replaces them with the corresponding SVG icons from the library. This allows you to dynamically integrate icons without manually including SVGs in your HTML.
@@ -178,8 +182,6 @@ DuoIcons.createIcons({
   });
 </script>
 ```
-
-For more details about the available icons, see the `DuoIcons.icons` property which contains an object with all the included icons.
 
 ## Support
 
