@@ -4,6 +4,16 @@
   "description": "Duo Icons is a library of modern and beautiful duotone icons, designed for easy use in vue projects.",
   "license": "MIT",
   "version": "1.0.1",
+  "keywords": [
+    "duotone",
+    "icons",
+    "open",
+    "source",
+    "tailwind icons",
+    "css",
+    "html",
+    "duotone icons open source"
+  ],
   "type": "module",
   "files": [
     "dist"
@@ -24,7 +34,7 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "vue": "^3.5.29"
+    "vue": "^3.3.0"
   },
   "devDependencies": {
     "@types/node": "^25.3.5",
@@ -35,5 +45,13 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazdiu/duo-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fazdiu/duo-icons/issues"
+  },
+  "homepage": "https://github.com/fazdiu/duo-icons#readme"
 }

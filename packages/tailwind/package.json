@@ -1,6 +1,19 @@
 {
-  "name": "@duo-icons/tailwind",
+  "name": "@duo-icons/tailwind",  
   "version": "1.0.1",
+  "author": "fazdiu",
+  "license": "MIT",
+  "description": "Duo Icons is a library of modern and beautiful duotone icons, designed for easy use in projects",
+  "keywords": [
+    "duotone",
+    "icons",
+    "open",
+    "source",
+    "tailwind icons",
+    "css",
+    "html",
+    "duotone icons open source"
+  ],
   "type": "module",
   "files": [
     "dist"
@@ -34,5 +47,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazdiu/duo-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fazdiu/duo-icons/issues"
+  },
+  "homepage": "https://github.com/fazdiu/duo-icons#readme"
 }

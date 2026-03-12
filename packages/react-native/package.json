@@ -4,6 +4,16 @@
   "description": "Duo Icons modern and beautiful duotone icons library specifically designed for seamless integration in React Native projects.",
   "license": "MIT",
   "version": "1.0.1",
+  "keywords": [
+    "duotone",
+    "icons",
+    "open",
+    "source",
+    "tailwind icons",
+    "css",
+    "html",
+    "duotone icons open source"
+  ],
   "type": "module",
   "files": [
     "dist"
@@ -22,9 +32,8 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*",
-    "react-native-svg": "*"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-native-svg": "^15.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.14",
@@ -37,5 +46,13 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazdiu/duo-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fazdiu/duo-icons/issues"
+  },
+  "homepage": "https://github.com/fazdiu/duo-icons#readme"
 }

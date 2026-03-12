@@ -4,6 +4,16 @@
   "description": "Duo Icons is a library of modern and beautiful duotone icons, designed for easy use in svelte projects. Each icon is crafted with a two-tone color scheme, providing a unique and stylish look that enhances the visual appeal of your applications. With a wide range of icons available, Duo Icons is perfect for developers and designers looking to add a touch of elegance to their projects.",
   "license": "MIT",
   "version": "1.0.1",
+  "keywords": [
+    "duotone",
+    "icons",
+    "open",
+    "source",
+    "tailwind icons",
+    "css",
+    "html",
+    "duotone icons open source"
+  ],
   "type": "module",
   "files": [
     "dist"
@@ -39,5 +49,13 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazdiu/duo-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fazdiu/duo-icons/issues"
+  },
+  "homepage": "https://github.com/fazdiu/duo-icons#readme"
 }
