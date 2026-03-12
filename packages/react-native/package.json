@@ -15,21 +15,39 @@
     "duotone icons open source"
   ],
   "type": "module",
+  "source": "src/index.tsx",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
   "files": [
-    "dist"
+    "src",
+    "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    }
-  },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc",
+    "clean": "shx rm -rf lib",
+    "copy-shared": "shx mkdir -p src/shared && shx cp -r ../shared/* src/shared/",
+    "remove-shared": "shx rm -rf src/shared",
+    "prepare": "npm run clean && npm run copy-shared && bob build",
+    "build": "npm run prepare",
+    "dev": "npm run copy-shared && vite",
     "preview": "vite preview"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
@@ -39,8 +57,10 @@
     "@types/react": "^19.2.14",
     "@vitejs/plugin-react": "^5.1.4",
     "react": "^19.2.4",
+    "react-native-builder-bob": "^0.40.18",
     "react-native-svg": "^15.15.3",
     "react-native-web": "^0.21.2",
+    "shx": "^0.4.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },

@@ -9,6 +9,8 @@ node_modules/
 .env.production.local
 
 # Compilación y salida (Build)
+src/shared/
+lib/
 dist/
 dist-ssr/
 *.local
