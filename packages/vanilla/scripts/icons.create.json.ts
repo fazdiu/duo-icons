@@ -27,7 +27,7 @@ function getBody(svgContent: string): string {
 function svgOptimized(): Record<string, string> {
     const svgOptimized: Record<string, string> = {};
     const files = fs.readdirSync(dirIcons);
-    files.forEach((fileName) => {
+    files.filter((fileName) => fileName.endsWith(".svg")).forEach((fileName) => {
         const pathSVG = `${dirIcons}/${fileName}`;
         const cleanFileName = fileName.replace('.svg', '').replace('-', '_');
         svgOptimized[cleanFileName] = getBody(optimizeSVG(pathSVG));
@@ -40,7 +40,7 @@ function createFileJSON(): Record<string, string> {
     const data = svgOptimized();
     fs.writeFileSync(dirOutputJSON, JSON.stringify(data, null, 4), 'utf8');
 
-    console.log('The file was created: '+dirOutputJSON);
+    console.log('The file was created: ' + dirOutputJSON);
     return data;
 }
 

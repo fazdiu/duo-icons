@@ -15,7 +15,7 @@ async function build() {
     await fs.copy('src/icons.css', 'dist/icons.css');
     await fs.copy('src/base.css', 'dist/base.css');
 
-    await fs.copy('../../icons', 'dist/icons');
+    await fs.copy('../icons', 'dist/icons');
 
     console.log('✅ Build successfully completed in /dist!');
   } catch (err) {

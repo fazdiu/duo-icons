@@ -15,5 +15,3 @@ DuoIcons.createIcons({
 DuoIcons.createIcons({
     root: "#v2"
 });
-
-console.log("Icons: ", DuoIcons.icons);
